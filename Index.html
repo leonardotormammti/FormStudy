@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>F O R M</title>
+</head>
+<body>
+        <form action="" method="POST">   
+        <fieldset>
+    <legend>
+       Cadastro
+    </legend>
+        <br>
+    <div>
+        <label name="Nome">Nome:</label>
+            <br>
+        <input class="txt"type="text" name="txtFieldNome"
+        placeholder="Ex: João Pereira">
+    </div>
+        <br>
+    <div>
+        <label name="Email">Email:</label>
+            <br>
+        <input class="txt"type="email" name="txtFieldEmail"
+        placeholder="Ex: joãopereira@gmail.com">
+    </div>
+        <br>
+    <div>
+        <label name="Idade">Idade:</label>
+            <br>
+        <input class="txt"type="number" name="txtFieldIdade"
+        placeholder="Ex: 18">
+    </div>
+        <br>
+    <div>
+        <label name="DataNasc">Data de Nascimento</label>
+            <br>
+        <input class="data" type="date" name="txtFieldDataNasc">
+    </div>
+        <br>
+        <div class=custom>
+        <label name="RedesSociais">Onde você possui conta:</label>
+            <br>
+        <input type="checkbox" name="checkboxInstagram ">
+            <label>Instagram</label>
+        <input type="checkbox" name="checkboxFacebook">
+            <label>Facebook</label>
+        <input type="checkbox" name="checkboxYoutube">
+            <label>Youtube</label>
+    </div>
+        <br>
+    <div class="custom">
+        <label>Sexo</label>
+            <br>
+            <input type="radio" name="Sexo" value="sex1"
+            checked>
+        <label>Masculino</label>
+            <input type="radio" name="Sexo" value="sex2">
+        <label>Feminino</label>
+    </div>
+        <br>
+    <div>
+        <label>Cor dos Olhos</label>
+        <input type="color" name="" id="">
+    </div>
+        <br>
+    <div>
+        <label>Biografia</label>
+            <br>
+        <textarea name="txtArea" style="resize: none;" cols="40" rows="7"></textarea>
+    </div>
+    <br>
+    <div>
+        <label>Foto do Perfil</label>
+            <br>   
+        <input type="file" name="ImagemPerfil" accept="jpg,jpeg" >
+    </div>
+        <br>
+    <div>
+        <label>Telefone</label>
+            <br>
+        <input class="txt"type="tel" name="Telefone" placeholder="Ex: +55 (DDD) 91111-1111">
+    </div>
+        <br>
+    <div>
+        <label>Link do Perfil do Facebook</label>
+            <br>
+        <input class="txt"type="url" name="UrlFacebook" placeholder="https://www.facebook.com/"
+        pattern="https://www.facebook.com/.*" required>
+    </div>
+        <br>
+    <div>
+        <label>Senha</label>
+            <br>
+        <input class="txt"type="password" name="Senha" placeholder="De 6 à 8 caracteres" minlength="6" maxlength="8">
+    </div>
+        <br><br>
+    <div>
+        <button class="botao"type="reset" value="Limpar">Limpar</button>    
+        
+        <input class="botao"type="submit" value="Enviar Dados">
+    </div>
+        </fieldset>
+        </form>
+</body>
+</html>
